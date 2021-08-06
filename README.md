@@ -1,4 +1,6 @@
 # random_pokemon_generator
+UPDATE: pickamon_8000 now added! pickamon_8000 includes ALL 898 Pokemon (as of August 5, 2021).
+
 Gives a random Pokemon (Gens 1-5 only) and its Bulbapedia page
 
 My first public coding project! Sorry if anything is oddly formatted; I'm newly self-taught.
