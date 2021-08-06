@@ -102,6 +102,8 @@ def handle_7(event):
     gen_7()
 def handle_8(event):
     gen_8()
+def handle_equals(event):
+    all_gens()
 def handle_enter(event):
     bulbapedia()
     txt_output.delete(tk.END)
@@ -114,6 +116,7 @@ window.bind("5", handle_5)
 window.bind("6", handle_6)
 window.bind("7", handle_7)
 window.bind("8", handle_8)
+window.bind("=", handle_equals)
 window.bind("<Return>", handle_enter)
 
 window.mainloop()
