@@ -17,4 +17,4 @@ I also included a few keyboard shortcuts. With the window open, you can press 1 
 
 A bonus effect of the way I wrote this script is that you can actually just type the name of a Pokemon into the text box and hit Enter/press the "Open Bulbapedia Page" button and be taken right to the correct page. The script takes the text in to box, splits it at ": ", and takes the last string formed by the split (ordinarily, the Pokemon's name). It then capitalizes the first letter of this string, and enters it in the {name} portion of https://bulbapedia.bulbagarden.net/wiki/{name}_(Pok%C3%A9mon). Therefore, "Open Bulbapedia Page" works whether the textbox says "1: Bulbasaur", "Bulbasaur", or "bulbasaur". Hypothetically, you could type "fndu948 tyhfr08h:fsa0{)h8: 4039jg: jfi: bulbasaur", hit Enter, and still be taken to https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon) successfully. (In fact, I just tested that exact string, and it works!)
 
-Have fun with this Pick-a-'Mon ~~5000~~ 8000!
+Have fun with this Pick-a-'Mon ~~5000~~ ~~8000~~ 9000!
